@@ -16,5 +16,4 @@ async def on_ready():
 async def ping(ctx):
     await ctx.send("Pong 🏓")
 
-# Récupère le token depuis Render
 bot.run(os.getenv("DISCORD_TOKEN"))
